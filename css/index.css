@@ -1,0 +1,186 @@
+
+body{
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+}
+html{
+    position: relative;
+    min-height: 100%;
+}
+*{
+    margin: 0;
+}
+#bg video{
+    height: 100vh;
+    width: 100%;
+    background-position: absolute;
+    z-index: 10;
+    object-fit: cover;
+}
+#bg audio{
+    z-index: 20;
+    position: absolute;
+    margin-top: 80vh;
+    width: 100%;
+    opacity: 50%;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+#bg{
+position: relative;
+}
+#bg .container{
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* .container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+} */
+.header{
+    position: relative;
+    background: #ff480042;
+    text-align: center;
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    letter-spacing: 5px;
+    font-family: 'Geologica', sans-serif;
+    font-size: 48px;
+}
+.header:hover{
+    cursor: pointer;
+    color: white;
+    transition: all 1s;
+}
+footer{
+    background: #ff480042;
+    text-align: center;
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    border-radius: 5px;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-height: 25px;
+    width: 100%;
+}
+footer p{
+    font-family: 'Geologica', sans-serif;
+}
+footer:hover{
+    cursor: pointer;
+    color: white;
+    transition: all 1s;
+}
+.container{
+    margin: 0;
+}
+.container button{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100% 100px ;
+    color: white;
+    background-color: black;
+    z-index: 20;
+}
+.container button:hover{
+    color: black;
+    background-color: white;
+    transition: all 1s;
+    z-index: 20;
+}
+/* Contact */
+.contact{
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-i{
+    background: #ff480042;
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    border-radius: 5px;
+    min-width: 20%;
+    float: left;
+    
+}
+.btn-i h1{
+    text-transform: uppercase;
+    font-family: 'Geologica', sans-serif;
+    font-size: 30px;
+}
+.btn-i:hover{
+    cursor:pointer;
+    color: white;
+    transition: all 1s;
+}
+.btn-g{
+    background: #ff480042;
+    border: rgba(255, 255, 255, 0.5) 1px solid;
+    border-radius: 5px;
+    min-width: 20%;
+    float: left;
+    margin-left: 20%;
+}
+.btn-g h1{
+    text-transform: uppercase;
+    font-family: 'Geologica', sans-serif;
+    font-size: 30px;
+}
+.btn-g:hover{
+    cursor:pointer;
+    color: white;
+    transition: all 1s;
+}
+/* linkler */
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    transition: all 1s;
+}
+a:active{
+    color: black;
+}
+a:active:hover{
+    color: white;
+    transition: all 1s;
+}
+/* hakkımda */
+.about{
+        position: relative;
+        text-align: center;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.btn-h{
+        background: #ff480042;
+        border: rgba(255, 255, 255, 0.5) 1px solid;
+        border-radius: 5px;
+        min-width: 20%;
+        float: left;
+}
+.about h1{
+    text-transform: uppercase;
+    font-family: 'Geologica', sans-serif;
+    font-size: 30px;
+}

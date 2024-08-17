@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orionn</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-pause-o.css' rel='stylesheet'>
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button-o.css' rel='stylesheet'>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+<body>
+  <div id="bg">
+  <video autoplay loop muted>
+      <source src="video/background.mp4" type="video/mp4">
+    </video> 
+
+    <div class="container">
+    <div class="header">
+      <h1>ORİON'A HOŞGELDİNİZ</h1>
+    </div>
+
+<!-- Müzik + js -->
+    <iframe src="audio/OMER BALIK - Sad Disco Balls.mp3" loop id="x"  allow="autoplay" style="display: none;">
+    </iframe>
+
+    <audio id="y">
+      <source src="audio/OMER BALIK - Sad Disco Balls.mp3"  type="audio/mp3">
+    </audio>
+    <button onclick="play()"><i class="gg-play-button-o" ></i></button>
+    <button onclick="pause()"><i class="gg-play-pause-o" ></i></button>
+<!-- contact -->
+<div class="contact">
+<div class="btn-i">
+  <h1><a target="_blank" href="https://www.instagram.com/kaanlatinler/">ınstagram</a></h1>
+</div>
+<div class="btn-g">
+  <h1><a target="_blank" href="https://github.com/kaanlatinler">github</a></h1>
+</div>
+</div>
+<br><br><br><br><br><br>
+<div class="about">
+  <div class="btn-h">
+    <h1><a href="http://127.0.0.1:5501/about/about.html">hakkımda</a></h1>
+  </div>
+</div>
+<!-- Footer -->
+  <footer>
+    <p>©Copyright - Developed by OrioNN, edit by OrioNN</p>
+  </footer>
+</div>
+
+
+
+    <script>
+      // contanct
+     
+      // play-pause
+      function play()
+      {
+        y.play();
+      }
+      function pause()
+      {
+        x.setAttribute("src", "");
+        y.pause();
+      }
+    </script>
+  </div>
+</div>
+</body>

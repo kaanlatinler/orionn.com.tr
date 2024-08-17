@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orionn Hakkında</title>
+    <link rel="icon" href="../favicon.png">
+    <link rel="stylesheet" href="../about/css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-pause-o.css' rel='stylesheet'>
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button-o.css' rel='stylesheet'>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+<body>
+  <div id="bg">
+  <video autoplay loop muted>
+      <source src="../video/background.mp4" type="video/mp4">
+    </video> 
+
+    <div class="container">
+    <div class="header">
+      <h1>ORİON'A HOŞGELDİNİZ</h1>
+    </div>
+
+<!-- Müzik + js -->
+    <iframe src="../audio/OMER BALIK - Sad Disco Balls.mp3" loop id="x"  allow="autoplay" style="display: none;">
+    </iframe>
+
+    <audio id="y">
+      <source src="../audio/OMER BALIK - Sad Disco Balls.mp3"  type="audio/mp3">
+    </audio>
+    <button onclick="play()"><i class="gg-play-button-o" ></i></button>
+    <button onclick="pause()"><i class="gg-play-pause-o" ></i></button>
+<!-- about -->
+<div class="about">
+  <h1 class="baslık">Selam ben Kaan aka OrioNN olarakta tanınıyorum.</h1>
+  <p class="bio">Kaan 4 Şubat 2003 yılında Antalya Finikede doğdu. İlk ve Ortaokula evinin yakınında bulunan Atatrük İlköğretim Okulunda gitti. Liseyi ise Finikenin en iyi lisesi olan Finike Anadolu Lisesinde bitirdi.
+    1 yıl mezuna bırakmasının ardından 2022 yılında Düzce Üniversitesi Akçakoca Meslek Yüksekokulunda Bilgisayar Programcılığı Bölümünü kazandı.
+  </p>
+  <h1 class="baslık">Daha fazlası için İnstagram veya sağ alltaki bot üzerinden iletişime geçebilirsiniz.</h1>
+</div>
+<!-- Portfoilo -->
+<div class="portfoilo">
+  <h1 class="head">Yapmış olduğum birkaç Proje </h1>
+  <div class="proje">
+    <p>Yaşadığım yeri biraz olsada tanıtan bir web sitesi yapmam istenmişti aşağıdaki linkten sitenin ana sayfasının önizlemesine gidebilirsiniz.</p>
+    <a href="http://finike.orionn.com.tr">memleketim</a>
+    <br><br><br>
+    <p>Üniversitenin ilk haftasında hocamız bir atm algoritması yazmamızı söylemişti bende c# konusunda biraz ilerledikten sonra ilk hafta yazdığım algoritmayı switcg case yapısı kullanarak bir konsol uygulaması yazdım.</p>
+    <a href="https://github.com/kaanlatinler/ATM_Machine">ATM uygulaması</a>
+    <br><br><br>
+    <p>Vize ve final notları açıklanınca ortalama hesaplamak hep dert olmuştu bu yüzden basit bir ortalama hesaplama kodu yazdım ve bunu konsol uygulamasına çevirdim (özellikle yazıyorum basit ve ilk zamanlarda yaptım)</p>
+    <a href="https://github.com/kaanlatinler/VizeFinalOrtalama">Ortalama Hesaplama</a>
+  </div>
+  <h1 class="head">Şuanlık elimde sadece bunlar var zaman geçtikçe kendimi geliştirdikçe bu liste artacaktır.</h1>
+</div>
+
+<!-- Footer -->
+  <footer>
+    <p>©Copyright - Developed by OrioNN, edit by OrioNN</p>
+  </footer>
+</div>
+
+
+
+    <script>
+      // contanct
+     
+      // play-pause
+      function play()
+      {
+        y.play();
+      }
+      function pause()
+      {
+        x.setAttribute("src", "");
+        y.pause();
+      }
+    </script>
+  </div>
+</div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6494253094cf5d49dc5f3548/1h3hb2i6q';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+</body>
